@@ -1,4 +1,4 @@
-const { Counter } = require('../src/components/add');
+const { Add } = require('../src/components/Add');
 const { Search } = require('../src/components/search');
 
 import axios from 'axios';
@@ -17,6 +17,6 @@ module.exports = [
   {
     path: '/add',
     exact: true,
-    component: Counter,
+    component: Add,
   },
 ];
